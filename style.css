@@ -4,34 +4,34 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.section-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.section-matrix img {
   width: 100%;
 }
-.aaa .more-inf {
+.section-matrix .matrix-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .section-matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-name {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
@@ -88,7 +88,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#new-task-name {
   width: 318px;
 }
 
@@ -118,12 +118,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete img {
+button.task-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.task-delete img:hover {
   transform: rotateZ(0);
 }
 
