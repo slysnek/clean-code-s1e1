@@ -53,11 +53,16 @@
   list-style: none;
 }
 
-.task-name,.task-add,.task-edit,.task-delete {
+.task-name,
+.task-add,
+.task-edit,
+.task-delete {
   outline: none;
 }
 
-.task-add,.task-edit,.task-delete {
+.task-add,
+.task-edit,
+.task-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +72,9 @@
   cursor: pointer;
 }
 
-.task-add:hover,.task-edit:hover,.task-delete:hover {
+.task-add:hover,
+.task-edit:hover,
+.task-delete:hover {
   color: #3a3a3a;
 }
 
@@ -119,7 +126,9 @@
   align-items: center;
 }
 
-.task-name, .task-edit, .task-delete {
+.task-name,
+.task-edit,
+.task-delete {
   vertical-align: middle;
 }
 
