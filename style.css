@@ -157,7 +157,7 @@
 }
 
 /* Completed */
-.task-done .task-name__label {
+.section-completed__list .task-name__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -167,11 +167,11 @@
   display: none;
 }
 
-.section-todo-edit__button .task__text {
+.edit-mode .task__text {
   display: inline-block;
   width: 224px;
 }
 
-.section-todo-edit__button .task-name__label {
+.edit-mode .task-name__label {
   display: none;
 }
