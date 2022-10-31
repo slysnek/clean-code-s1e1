@@ -45,16 +45,16 @@
 }
 
 .todo-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .heading {
-  list-style:none;
+  list-style: none;
 }
 
 .task-name,.task-add,.task-edit,.task-delete {
-  outline:none;
+  outline: none;
 }
 
 .task-add,.task-edit,.task-delete {
@@ -156,14 +156,14 @@
 
 /* Edit Task */
 .todo-list-item .task-text {
-  display:none
+  display: none
 }
 
 .todo-edit-mode .task-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo-edit-mode .task-name-label {
-  display:none;
+  display: none;
 }
